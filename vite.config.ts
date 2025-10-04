@@ -7,7 +7,7 @@ import { defineConfig } from "vite"
 export default defineConfig(({ command }) => {
   return {
     plugins: [react(), tailwindcss()],
-      base: command === 'build' ? '/shadcn-datagrid' : undefined,
+      base: command === 'build' ? '/shadcn-chartgrid' : undefined,
       resolve: {
         alias: {
           "@": path.resolve(__dirname, "./src"),
