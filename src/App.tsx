@@ -137,6 +137,10 @@ function App() {
                     <a href="https://twitter.com/henriwoodcock" className="underline">
                         Henri Woodcock
                     </a>
+                    . Source code available on&nbsp;
+                    <a href="https://twitter.com/henriwoodcock" className="underline">
+                        GitHub
+                    </a>
                   </p>
               </div>
             </footer>
